@@ -1,44 +1,53 @@
 #######################################################################################
-# Book settings
+# Project & Book settings
+project: "TAVIE"
 title: A Generalized Tangent Approximation Framework for Strongly Super-Gaussian Likelihoods
-author: Somjit Roy and Pritam Dey
+author: "Somjit Roy and Pritam Dey"
 email: ''
-logo                        : "favicon.png"  # A path to the book logo
-exclude_patterns            : ["README.md"]  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+logo: "favicon.png"                      # A path to the book logo
+exclude_patterns: ["README.md"]          # Patterns to skip when building the book
+
+# Footer copyright
+copyright:
+  name: "Somjit Roy and Pritam Dey"
+  year: 2025
 
 #######################################################################################
 # Execution settings
 execute:
-  execute_notebooks         : 'off'  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
-  timeout                   : 600    # The maximum time (in seconds) each notebook cell is allowed to run.
+  execute_notebooks: 'off'               # Whether to execute notebooks at build time
+  timeout: 600                           # Max seconds per cell
 
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon: "favicon.png"             # path to a favicon image
-  navbar_number_sections: true       # add section numbers in the navbar
-  home_page_in_navbar: false         # don't include README.md as a page
-  baseurl: "/TAVIE_JupyterBook/"      # relative path for GitHub Pages
+  favicon: "favicon.png"                  # Path to a favicon image
+  navbar_number_sections: true            # Add section numbers in the navbar
+  home_page_in_navbar: false              # Don’t include README.md as a page
+  baseurl: "/TAVIE_JupyterBook/"          # Relative path for GitHub Pages
 
-  # moved per sphinx-book-theme update
-  analytics:
+  analytics:                              # Updated analytics location
     google_analytics_id: "UA-148221575-1"
 
-  use_repository_button: true        # show “View on GitHub” button
-  use_edit_page_button: false        # hide “Edit this page” link
-  use_issues_button: false           # hide “Report issue” button
+  use_repository_button: true             # Show “View on GitHub” button
+  use_edit_page_button: false             # Hide “Edit this page” link
+  use_issues_button: false                # Hide “Report issue” button
 
 #######################################################################################
 # Launch button settings
 launch_buttons:
-  jupyterhub_url            : ""
-  binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
-  notebook_interface        : jupyterlab
+  jupyterhub_url: ""                      # Leave empty or set your JupyterHub URL
+  binderhub_url: "https://mybinder.org"   # URL for Binder
+  notebook_interface: jupyterlab
 
+#######################################################################################
+# Repository info
 repository:
-  url                       : https://github.com/Roy-SR-007/TAVIE_JupyterBook  # The URL to your book's repository
-  branch                    : main  # Which branch of the repository should be used when creating links
+  url: "https://github.com/Roy-SR-007/TAVIE_JupyterBook"  # Repo URL
+  branch: main                                          # Branch for “Edit on GitHub” links
 
+#######################################################################################
+# Sphinx config
 sphinx:
   config:
     html_extra_path: ['assets']
