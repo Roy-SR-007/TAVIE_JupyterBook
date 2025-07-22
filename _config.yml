@@ -1,10 +1,10 @@
 #######################################################################################
 # Project & Book settings
 project: "TAVIE"
-title: A Generalized Tangent Approximation Framework for Strongly Super-Gaussian Likelihoods
+# title: A Generalized Tangent Approximation Framework for Strongly Super-Gaussian Likelihoods
 author: "Somjit Roy and Pritam Dey"
 email: ''
-logo: "favicon.png"                      # A path to the book logo
+logo: "favicon_1.png"                      # A path to the book logo
 exclude_patterns: ["README.md"]          # Patterns to skip when building the book
 
 # Footer copyright
