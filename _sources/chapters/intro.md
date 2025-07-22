@@ -1,14 +1,16 @@
-# Computational and Inferential Thinking: The Foundations of Data Science
+# TAVIE
 
-2nd Edition by [Ani Adhikari](http://statistics.berkeley.edu/people/ani-adhikari), [John DeNero](http://denero.org), [David Wagner](https://www.cs.berkeley.edu/~daw/).
+by [Somjit Roy](https://roy-sr-007.github.io/) and [Pritam Dey](https://pritamdey.github.io/).
 
-This text was originally developed for the UC Berkeley course [Data 8: Foundations of Data Science][data8].
+**T**angent **A**pproximation based **V**ariational **I**nferenc**E** (TAVIE) for *strongly super-Gaussian* (SSG) likelihood functions which includes a broad class of flexible probabilty models: 
+
+This is a `Jupyter Book` comprising of the implementation of TAVIE proposed in Roy, S., Dey, P., Pati, D., & Mallick, B. K. (2025). *A Generalized Tangent Approximation Framework for Strongly Super‑Gaussian Likelihoods*, [![arXiv logo](https://upload.wikimedia.org/wikipedia/commons/9/92/ArXiv_logo.png)](TAVIE).
 
 You can [view this text online][ghpages] or [view the source][source].
 
-[data8]: http://data8.org/
-[ghpages]: https://inferentialthinking.com
-[source]: https://github.com/data-8/textbook
+[TAVIE]: https://arxiv.org/abs/2504.05431
+[ghpages]: https://roy-sr-007.github.io/TAVIE_JupyterBook
+[source]: https://github.com/Roy-SR-007/TAVIE_JupyterBook
 
 The contents of this book are licensed for free consumption under the following license:
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
