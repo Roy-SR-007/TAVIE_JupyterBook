@@ -1,7 +1,7 @@
 #######################################################################################
 # Project & Book settings
 project: "TAVIE"
-title: TAVIE
+title: Jupyter Book
 author: "Somjit Roy and Pritam Dey"
 email: ''
 logo: "favicon.png"                      # A path to the book logo
