@@ -1,10 +1,10 @@
 #######################################################################################
 # Project & Book settings
 project: "TAVIE"
-# title: A Generalized Tangent Approximation Framework for Strongly Super-Gaussian Likelihoods
+title: TAVIE
 author: "Somjit Roy and Pritam Dey"
 email: ''
-logo: "favicon_1.png"                      # A path to the book logo
+logo: "favicon.png"                      # A path to the book logo
 exclude_patterns: ["README.md"]          # Patterns to skip when building the book
 
 # Footer copyright
@@ -19,7 +19,7 @@ execute:
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon: "favicon.png"                  # Path to a favicon image
+  favicon: "favicon_1.png"                  # Path to a favicon image
   navbar_number_sections: true            # Add section numbers in the navbar
   home_page_in_navbar: false              # Don’t include README.md as a page
   baseurl: "/TAVIE_JupyterBook/"          # Relative path for GitHub Pages
