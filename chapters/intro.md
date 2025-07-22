@@ -2,7 +2,7 @@
 
 by [Somjit Roy](https://roy-sr-007.github.io/) and [Pritam Dey](https://pritamdey.github.io/).
 
-**T**angent **A**pproximation based **V**ariational **I**nferenc**E** (TAVIE) for *strongly super-Gaussian* (SSG) likelihood functions which includes a broad class of flexible probabilty models: 
+**T**angent **A**pproximation based **V**ariational **I**nferenc**E** (TAVIE) for *strongly super-Gaussian* (SSG) likelihood functions which includes a broad class of flexible probabilty models such as, likelihoods concerning any zero-mean scale mixture of Gaussians (Laplace, Student's t), Bernoulli, Negative-Binomial etc.
 
 This is a `Jupyter Book` comprising of the implementation of TAVIE proposed in Roy, S., Dey, P., Pati, D., & Mallick, B. K. (2025), *A Generalized Tangent Approximation Framework for Strongly Super‑Gaussian Likelihoods*, [arXiv:2504.05431][TAVIE].
 
