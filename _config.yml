@@ -8,7 +8,7 @@ logo: "favicon.png"                      # A path to the book logo
 exclude_patterns: ["README.md"]          # Patterns to skip when building the book
 
 # Footer copyright
-copyright: "© 2025 Somjit Roy and Pritam Dey"
+copyright: "2025"
 
 #######################################################################################
 # Execution settings
